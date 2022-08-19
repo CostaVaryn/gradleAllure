@@ -4,26 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="935e96a9-f767-4f09-9916-b745c0cd056d" name="Changes" comment="add origin build.gradle">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="935e96a9-f767-4f09-9916-b745c0cd056d" name="Changes" comment="add gradlew">
       <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Base/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Base/BaseSelenideTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Base/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Base/TestListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Kinopoisk/AdvancedSearchPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Kinopoisk/KinoSelenideTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Kinopoisk/KinoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Kinopoisk/MainSearchBarPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Kinopoisk/SearchResultPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Base/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Base/TestListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Base/TestListener.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +65,7 @@
       <recent name="C:\Users\cosva\IdeaProjects\demo\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.KinoSelenideTest.checkFilms">
+  <component name="RunManager" selected="JUnit.KinoTest.checkMovieChain">
     <configuration name="KinoSelenideTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo.test" />
       <extension name="coverage">
@@ -160,10 +147,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.KinoSelenideTest.checkFilms" />
         <item itemvalue="JUnit.KinoTest.checkMovieChain" />
-        <item itemvalue="JUnit.KinoTest.shortTest" />
         <item itemvalue="JUnit.KinoTest.bigChain" />
+        <item itemvalue="JUnit.KinoSelenideTest.checkFilms" />
+        <item itemvalue="JUnit.KinoTest.shortTest" />
         <item itemvalue="JUnit.KinoSelenideTest" />
       </list>
     </recent_temporary>
@@ -184,7 +171,49 @@
       <option name="project" value="LOCAL" />
       <updated>1660904637990</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add chromedriver">
+      <created>1660904758312</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1660904758312</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add chromedriver">
+      <created>1660904824024</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1660904824024</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add files">
+      <created>1660904886735</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1660904886736</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add tests">
+      <created>1660904923926</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1660904923926</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add xml files">
+      <created>1660904959487</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1660904959487</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add gradlew">
+      <created>1660904973603</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1660904973603</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -200,6 +229,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add origin build.gradle" />
-    <option name="LAST_COMMIT_MESSAGE" value="add origin build.gradle" />
+    <MESSAGE value="add chromedriver" />
+    <MESSAGE value="add files" />
+    <MESSAGE value="add tests" />
+    <MESSAGE value="add xml files" />
+    <MESSAGE value="add gradlew" />
+    <option name="LAST_COMMIT_MESSAGE" value="add gradlew" />
   </component>
 </project>
