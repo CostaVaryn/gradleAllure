@@ -19,8 +19,10 @@ public class AdvancedSearchPage extends MainSearchBarPage{
     @FindBy(xpath = "//select[@id='country']//option[@value='1']")
     private WebElement usaCountryOption;
 
-    @FindBy(xpath = "//form[@id='formSearchMain']//input[@value='поиск']")
+    @FindBy (xpath = "//form[@id='formSearchMain']//input[@value='РїРѕРёСЃРє']")
     private WebElement mainSearchButton;
+    //@FindBy(xpath = "//form[@id='formSearchMain']//input[@value='поиск']")
+    //private WebElement mainSearchButton;
 
     public AdvancedSearchPage(WebDriver driver) {
         super(driver);
