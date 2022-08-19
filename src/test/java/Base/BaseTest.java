@@ -16,7 +16,7 @@ public class BaseTest {
 
     @BeforeEach
     public void setUp(){
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\cosva\\IdeaProjects\\gradleAllure\\src\\main\\resources\\chromedriver");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\cosva\\IdeaProjects\\gradleAllure\\src\\main\\resources\\chromedriver.exe");
         ChromeOptions chromeOptions = new ChromeOptions();
         // chromeOptions.addArguments("--headless");
         driver = new ChromeDriver(chromeOptions);
