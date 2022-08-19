@@ -15,7 +15,7 @@ public class TestListener implements TestWatcher {
                 "screenshot", "image/png", "png"
                 , ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)
         );
-        //driver.close();
-        //driver.quit();
+        driver.close();
+        driver.quit();
     }
 }

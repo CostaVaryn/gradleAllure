@@ -20,9 +20,8 @@ public class BaseTest {
         ChromeOptions chromeOptions = new ChromeOptions();
         // chromeOptions.addArguments("--headless");
         driver = new ChromeDriver(chromeOptions);
-        // driver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
-        // driver.manage().timeouts().implicitlyWait()          implicitlyWait(TIMOUT, TimeUnit.SECONDS);
-        // driver.manage().timeouts().pageLoadTimeout(TIMOUT, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(TIMOUT, TimeUnit.SECONDS);
+        driver.manage().timeouts().pageLoadTimeout(TIMOUT, TimeUnit.SECONDS);
     }
 
     /**
