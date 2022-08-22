@@ -30,7 +30,7 @@ public class KinoTest extends BaseTest {
 
         Assertions.assertTrue(filmNames.size()!=0);
         Assertions.assertEquals("2018", year);
-        Assertions.assertEquals(21, count);
+        Assertions.assertEquals(13, count);
     }
 
     @Test
