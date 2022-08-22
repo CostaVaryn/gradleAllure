@@ -12,7 +12,7 @@ public class KinoSelenideTest extends BaseSelenideTest {
     @Test
     public void checkFilms(){
         Selenide.open("https://www.kinopoisk.ru/s/");
-        $x("//*[@id='find_film']").sendKeys("twilight");
+        $x("//*[@id='find_film']").sendKeys("Сумерки");
         $x("//form[@id='formSearchMain']//input[@value='поиск']").click();
         $$x("//div[@class='search_results search_results_last']//p[@class='name']/a")
                 .forEach(x-> System.out.println(x.getText()));
