@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="935e96a9-f767-4f09-9916-b745c0cd056d" name="Changes" comment="add gradlew">
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+    <list default="true" id="935e96a9-f767-4f09-9916-b745c0cd056d" name="Changes" comment="chromedriver update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Base/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Base/TestListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Base/TestListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Kinopoisk/AdvancedSearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Kinopoisk/AdvancedSearchPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Kinopoisk/KinoSelenideTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Kinopoisk/KinoSelenideTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Kinopoisk/KinoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Kinopoisk/KinoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +29,28 @@
         <task path="$PROJECT_DIR$">
           <activation />
         </task>
-        <projects_view />
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="demo" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="demo" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="demo" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
       </state>
     </system>
   </component>
@@ -55,31 +77,41 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/cosva/IdeaProjects/gradleAllure",
+    "last_opened_file_path": "C:/Users/cosva/IdeaProjects/gradleAllure/src/main/resources",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\cosva\IdeaProjects\gradleAllure\src\main\resources" />
       <recent name="C:\Users\cosva\IdeaProjects\demo\src\test\java" />
       <recent name="C:\Users\cosva\IdeaProjects\demo\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.KinoTest.checkMovieChain">
-    <configuration name="KinoSelenideTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="demo.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Kinopoisk.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Kinopoisk" />
-      <option name="MAIN_CLASS_NAME" value="Kinopoisk.KinoSelenideTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+  <component name="RunManager" selected="JUnit.KinoSelenideTest.checkFilms">
+    <configuration name="gradleAllure [allureServe]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="allureServe" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
     <configuration name="KinoSelenideTest.checkFilms" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo.test" />
@@ -113,7 +145,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KinoTest.checkMovieChain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KinoTest.checkMovie" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo.test" />
       <extension name="coverage">
         <pattern>
@@ -123,7 +155,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="Kinopoisk" />
       <option name="MAIN_CLASS_NAME" value="Kinopoisk.KinoTest" />
-      <option name="METHOD_NAME" value="checkMovieChain" />
+      <option name="METHOD_NAME" value="checkMovie" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -147,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.KinoTest.checkMovieChain" />
-        <item itemvalue="JUnit.KinoTest.bigChain" />
         <item itemvalue="JUnit.KinoSelenideTest.checkFilms" />
+        <item itemvalue="Gradle.gradleAllure [allureServe]" />
+        <item itemvalue="JUnit.KinoTest.checkMovie" />
         <item itemvalue="JUnit.KinoTest.shortTest" />
-        <item itemvalue="JUnit.KinoSelenideTest" />
+        <item itemvalue="JUnit.KinoTest.bigChain" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +245,56 @@
       <option name="project" value="LOCAL" />
       <updated>1660904973603</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add files">
+      <created>1660905634045</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1660905634045</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add java files">
+      <created>1660905655385</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1660905655385</updated>
+    </task>
+    <task id="LOCAL-00010" summary="file code update">
+      <created>1660917714632</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1660917714632</updated>
+    </task>
+    <task id="LOCAL-00011" summary="file code update">
+      <created>1660917730028</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1660917730028</updated>
+    </task>
+    <task id="LOCAL-00012" summary="file code update">
+      <created>1660917745373</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1660917745373</updated>
+    </task>
+    <task id="LOCAL-00013" summary="file code update">
+      <created>1660917751685</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1660917751685</updated>
+    </task>
+    <task id="LOCAL-00014" summary="chromedriver update">
+      <created>1660917766907</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1660917766907</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -230,10 +311,13 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add origin build.gradle" />
     <MESSAGE value="add chromedriver" />
-    <MESSAGE value="add files" />
     <MESSAGE value="add tests" />
     <MESSAGE value="add xml files" />
     <MESSAGE value="add gradlew" />
-    <option name="LAST_COMMIT_MESSAGE" value="add gradlew" />
+    <MESSAGE value="add files" />
+    <MESSAGE value="add java files" />
+    <MESSAGE value="file code update" />
+    <MESSAGE value="chromedriver update" />
+    <option name="LAST_COMMIT_MESSAGE" value="chromedriver update" />
   </component>
 </project>
