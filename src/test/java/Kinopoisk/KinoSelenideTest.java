@@ -9,8 +9,9 @@ import static com.codeborne.selenide.Selenide.$$x;
 import static com.codeborne.selenide.Selenide.$x;
 
 public class KinoSelenideTest extends BaseSelenideTest {
+    
     @Test
-    public void checkFilms(){
+    public void checkFilms() {
         Selenide.open("https://www.kinopoisk.ru/s/");
         $x("//*[@id='find_film']").sendKeys("Сумерки");
         $x("//form[@id='formSearchMain']//input[@value='поиск']").click();
