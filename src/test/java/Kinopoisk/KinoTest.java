@@ -1,6 +1,5 @@
 package Kinopoisk;
 
-
 import Base.BaseTest;
 import Base.TestListener;
 import io.qameta.allure.Description;
@@ -15,7 +14,7 @@ import java.util.List;
 public class KinoTest extends BaseTest {
 
     @Test
-    public void checkMovieChain(){
+    public void checkMovieChain() {
         MainSearchBarPage mainSearchBarPage = new MainSearchBarPage(driver);
         SearchResultPage searchResultPage = mainSearchBarPage.openMainPage()
                 .openSearchPage()
@@ -34,7 +33,7 @@ public class KinoTest extends BaseTest {
     }
 
     @Test
-    public void bigChain(){
+    public void bigChain() {
         new MainSearchBarPage(driver).openMainPage()
                 .openSearchPage().fillName("Матрица").findFilm().showFilmNames()
                 .openSearchPage().fillName("Ёлки").findFilm().showFilmNames()
@@ -44,7 +43,7 @@ public class KinoTest extends BaseTest {
     @Test
     @Owner("borrowed from Олег ThreadQA link github/penolegrus")
     @Description("Выполняется поиск фильма с заданными параметрами и проверяется что фильмы найдены")
-    public void checkMovie(){
+    public void checkMovie() {
         MainSearchBarPage mainSearchBarPage = new MainSearchBarPage(driver);
         mainSearchBarPage.openMainPage();
         mainSearchBarPage.openSearchPage();
@@ -62,10 +61,9 @@ public class KinoTest extends BaseTest {
     }
 
     @Test
-    public void shortTest(){
+    public void shortTest() {
         Assertions.assertEquals("2018", new MainSearchBarPage(driver).openMainPage()
                 .openSearchPage().fillName("Batman").fillYear("2018").fillCountry()
                 .findFilm().getFirstYear());
     }
-
 }
