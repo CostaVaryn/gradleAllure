@@ -7,15 +7,15 @@ public class BasePage {
     protected String pagePath;
     protected WebDriver driver;
 
-    public void openPage(){
+    public void openPage() {
         driver.get(pagePath);
     }
 
-    public void switchTo(){
+    public void switchTo() {
         BaseTest.switchTo(pagePath);
     }
 
-    public void switchTo(int window){
+    public void switchTo(int window) {
         BaseTest.switchTo(window);
     }
 
